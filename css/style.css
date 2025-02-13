@@ -406,8 +406,6 @@ html, body {
   text-align: center;
 }
 
-.directions__body {}
-
 .directions__filter-box {
   display: flex;
   margin-bottom: 56px;
@@ -565,4 +563,53 @@ html, body {
 .directions__list-item--development .directions__link-tag {
   background-color: rgb(119, 114, 241);
 
+}
+
+/* ============================================================================ */
+
+.certificate {
+  padding-bottom: 120px;
+}
+
+.container {}
+
+.certificate__inner {
+  display: flex;
+}
+
+.certificate__content {
+  margin-right: 130px;
+}
+
+.certificate__heading {
+  margin-bottom: 48px;
+}
+
+.certificate__text {
+  color: #424551;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 32px;
+}
+
+.certificate__paragraph {}
+
+.certificate__img-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.certificate__img-box:last-child {
+  margin-right: 0px;
+}
+
+.certificate__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+  overflow: hidden;
 }
